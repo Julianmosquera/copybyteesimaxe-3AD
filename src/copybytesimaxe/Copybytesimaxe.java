@@ -36,7 +36,10 @@ public class Copybytesimaxe {
             salidabuf.write(Ent);
 
         }
-        
+        entrada.close();
+        salida.close();
+        entradabuf.close();
+        salidabuf.close();
         
     }
     
